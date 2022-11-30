@@ -12,6 +12,7 @@ In a file called indoor.py, implement a program in Python that prompts the user 
 hello.
 ```
 
+
 - Run your program with python indoor.py. 
 * Type THIS IS CS50 and press Enter. 
 * Your program should output:
@@ -19,12 +20,14 @@ hello.
 this is cs50.
 ```
 
+
 - Run your program with python indoor.py. 
 - Type 50 and press Enter. 
 - Your program should output:
 ```
 50
 ```
+
 
 ## 2. playback.py
 
@@ -40,13 +43,15 @@ In a file called playback.py, implement a program in Python that prompts the use
 ```
 This...is...CS50
 ```
-    
--Run your program with python playback.py. 
+ 
+ 
+- Run your program with python playback.py. 
 - Type This is our week on functions and press Enter. 
 - Your program should output:
 ```
 This...is...our...week...on...functions
 ```
+
 
 - Run your program with python playback.py. 
 - Type Let's implement a function called hello and press Enter. 
@@ -54,6 +59,7 @@ This...is...our...week...on...functions
 ```
 Let's...implement...a...function...called...hello
 ```
+
 
 ## 3. faces.py
 
@@ -72,6 +78,7 @@ Then, in that same file, implement a function called main that prompts the user 
 Hello 🙂
 ```
 
+
 - Run your program with python faces.py. 
 - Type Goodbye :( and press Enter. 
 - Your program should output:
@@ -79,12 +86,14 @@ Hello 🙂
 Goodbye 🙁
 ```
 
+
 - Run your program with python faces.py. 
 - Type Hello :) Goodbye :( and press Enter. 
 - Your program should output:
 ```
 Hello 🙂 Goodbye 🙁
 ```
+
 
 ## 4. einstein.py
 
@@ -101,12 +110,14 @@ In a file called einstein.py, implement a program in Python that prompts the use
 90000000000000000
 ```
 
+
 - Run your program with python einstein.py. 
 - Type 14 and press Enter. 
 - Your program should output:
 ```
 1260000000000000000
 ```
+
 
 - Run your program with python einstein.py. 
 - Type 50 and press Enter. 
@@ -115,13 +126,14 @@ In a file called einstein.py, implement a program in Python that prompts the use
 4500000000000000000
 ```
 
+
 ## 5. tip.py
 
 ### Task:
 
 Well, we’ve written most of a tip calculator for you. Unfortunately, we didn’t have time to implement two functions:
 
-dollars_to_float, which should accept a str as input (formatted as $##.##, wherein each # is a decimal digit), remove the leading $, and return the amount as a float. For instance, given $50.00 as input, it should return 50.0.
+dollars_to_float, which should accept a str as input (formatted as > $##.##, wherein each # is a decimal digit), remove the leading $, and return the amount as a float. For instance, given $50.00 as input, it should return 50.0.
 percent_to_float, which should accept a str as input (formatted as ##%, wherein each # is a decimal digit), remove the trailing %, and return the percentage as a float. For instance, given 15% as input, it should return 0.15.
 Assume that the user will input values in the expected formats.
 
@@ -134,6 +146,8 @@ Assume that the user will input values in the expected formats.
 ```
 Leave $7.50
 ```    
+
+
 - Run your program with python tip.py. 
 - Type $100.00 and press Enter. 
 - Then, type 18% and press Enter. 
@@ -141,6 +155,8 @@ Leave $7.50
 ```
 Leave $18.00
 ```
+
+
 - Run your program with python tip.py. 
 - Type $15.00 and press Enter. 
 - Then, type 25% and press Enter. 
